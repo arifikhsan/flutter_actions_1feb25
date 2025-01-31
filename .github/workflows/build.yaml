@@ -13,6 +13,6 @@ jobs:
         with:
           flutter-version: 3.27.3
       - run: flutter pub get
-      # - run: flutter test
+      - run: flutter test
       - run: flutter build apk
-      # - run: flutter build appbundle --dart-define=ENVIRONMENT=production --ignore-deprecation --no-tree-shake-icons
+      - run: flutter build appbundle
